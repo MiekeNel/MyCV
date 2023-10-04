@@ -1,0 +1,82 @@
+/* You can keep these styles as they are */
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #ececec;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  #firstHeading {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 20px;
+    color: #4bbe70;
+  }
+  
+  .profile-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 150px;
+    border-radius: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  h2 {
+    font-size: 28px;
+    margin-top: 30px;
+    color: #333;
+    border-bottom: 2px solid #4bbe70;
+    padding-bottom: 5px;
+  }
+  
+  p b {
+    font-weight: bold;
+  }
+  
+  a {
+    color: #d77943;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
+  ul {
+    margin-left: 20px;
+    list-style: disc;
+  }
+  
+  h2 + p {
+    margin-top: 15px;
+  }
+  
+  h4 {
+    margin-top: 15px;
+    color: #4bbe70;
+  }
+  
+  h4 + p {
+    padding-left: 20px;
+  }
+  
+  h4 + p a {
+    background-color: #2e6740;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  h4 + p a:hover {
+    background-color: #2e6740;
+    text-decoration: none;
+  }
+  
